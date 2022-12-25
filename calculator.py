@@ -38,6 +38,27 @@ btn_mul.pack(side=LEFT, padx=10, pady=10)
 btn_div = Button(top_third, text='/', width=10, highlightbackground=color)
 btn_div.pack(side=LEFT, padx=10, pady=10)
 
+# ====================== enties and labeles =======================
+
+first_num = Label(top_first, text='input number 1 :' , bg=color)
+first_num.pack(side=LEFT , padx=10 , pady=10)
+
+first_num_entry=Entry(top_first , highlightbackground=color)
+first_num_entry.pack(side=LEFT , padx=10 , pady=10)
+
+second_num=Label(top_second , text='input number 2 :' , bg=color)
+second_num.pack(side =LEFT , padx=10 , pady=10)
+
+second_num_entry=Entry (top_second , highlightbackground = color)
+second_num_entry.pack(side=LEFT , padx=10 , pady=10)
+
+
+res_num=Label(top_forth , text ="result :" , bg=color )
+res_num.pack(side=LEFT, padx=10 , pady=10)
+
+res_num_entry=Entry(top_forth , highlightbackground = color)
+res_num_entry.pack(side=LEFT , padx=10 , pady=10)
+
 
 # ___________________________________________________________________________________________
 
